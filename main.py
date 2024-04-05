@@ -1,6 +1,9 @@
-# Script to Visualize the Expected vs.
-# Predicted Prices using Multiple Linear
-# Regression Housing Price Estimator
+# CS2023 - Lab11
+
+_author_ = "Brian Nguyen"
+_credits_ = ["N/A"]
+_email_ = "nguyeb2@mail.uc.edu"
+
 '''
 Multiple Linear Regression with All Datasets
 R2 Score: 0.6008983115964333
@@ -51,6 +54,11 @@ The only column that seems to have the noticeable effect is the median income, w
 of 0.72. However, despite the other columns having very small R2 scores, combining all of them into one linear regression
 model yields an R2 score of 0.60 and an MSE score of 0.54, making it the most accurate of them all.
 '''
+
+# Script to Visualize the Expected vs.
+# Predicted Prices using Multiple Linear
+# Regression Housing Price Estimator
+
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
 
